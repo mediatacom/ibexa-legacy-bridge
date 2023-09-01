@@ -6,7 +6,7 @@
  */
 namespace eZ\Bundle\EzPublishLegacyBundle\FieldType\Page;
 
-use Ibexa\Bundle\Core\FieldType\Page\PageService as CorePageService;
+use MediataCom\MediataEzpageFieldtypeBundle\FieldType\Page\PageService as CorePageService;
 
 class PageService extends CorePageService
 {
