@@ -40,6 +40,9 @@
         "fix-cs": "php-cs-fixer fix -v --show-progress=estimating",
         "test": "vendor/bin/phpunit"
     },
+    "replace": {
+        "netgen/ibexa-legacy-bridge": "*"
+    },
     "extra": {
         "ezpublish-legacy-dir": "ezpublish_legacy",
         "branch-alias": {
